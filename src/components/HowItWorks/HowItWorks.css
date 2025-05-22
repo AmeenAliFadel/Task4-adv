@@ -53,7 +53,7 @@
 
 @media (max-width:1365px) {
     .how-card {
-        width: 47%;
+        width: 46%;
     }
 }
 
@@ -62,6 +62,10 @@
         margin-top: 42px;
     }
 
+
+}
+
+@media (max-width:768px) {
     .how-card {
         width: 100%;
     }

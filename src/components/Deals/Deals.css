@@ -63,14 +63,21 @@
         backdrop-filter: blur(16px);
     }
 }
-
+@media (max-width:1360px){
+    .deals-card{
+        width: 47%;
+    }
+}
 @media (max-width:992px) {
     .deals-scroll {
         overflow-x: auto;
         -webkit-overflow-scrolling: touch;
     }
 
-    .deals-card {
+    
+}
+@media (max-width:768px){
+.deals-card {
         width: 100%;
         
     }

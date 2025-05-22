@@ -21,7 +21,7 @@
 }
 ::-webkit-scrollbar {
   width: 12px; 
-  height: 15px; 
+  height: 2px; 
 }
 ::-webkit-scrollbar-thumb {
   background: var(--color2);
