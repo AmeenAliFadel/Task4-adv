@@ -1,0 +1,74 @@
+.dream-home {
+    position: relative;
+    background: url(../../assets/img/DreamHome/background.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 380px;
+    margin-top: 94px;
+}
+
+.dream-home .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.dream-home .content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    text-align: center;
+    width: 606px;
+
+}
+
+.dream-home .content h2 {
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 56px;
+    letter-spacing: 0%;
+    color: var(--white);
+}
+
+.dream-home .content p {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 26px;
+    letter-spacing: 0%;
+    color: var(--white);
+    margin-top: 58px;
+}
+
+@media (max-width:992px) {
+    .dream-home .content{
+        width: 340px;
+    }
+    .dream-home{
+        margin-top: 63px;
+    }
+    .dream-home .content h2 {
+        font-size: 40px;
+    }
+    .dream-home .content p{
+        font-size: 22px;
+        margin-top: 22px;
+    }
+}
+
+@media (max-width:768px) {
+    .dream-home .content h2 {
+        font-size: 30px;
+    }
+
+    .dream-home .content p {
+        font-size: 15px;
+        margin-top: 15px;
+    }
+}

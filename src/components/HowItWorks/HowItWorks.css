@@ -1,0 +1,68 @@
+.how-it-works {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 43px;
+    margin-top: 57px;
+}
+
+.how-card {
+    padding: 30px 20px;
+    border-radius: 15px;
+    width: 30.99%;
+
+    img {
+        width: 40px;
+        height: 40px;
+    }
+
+    h3 {
+        font-weight: 600;
+        font-size: 22px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        color: var(--color4);
+        margin-top: 20px;
+    }
+
+    p {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0%;
+        color: var(--color5);
+        margin-top: 10px;
+        margin-bottom: 50px;
+        width: 300px;
+    }
+}
+
+.how-card#how2 {
+    background-color: var(--color2);
+
+    h3 {
+        color: var(--white);
+    }
+
+    p {
+        color: var(--white);
+
+    }
+}
+
+@media (max-width:1365px) {
+    .how-card {
+        width: 47%;
+    }
+}
+
+@media (max-width:992px) {
+    .how-it-works {
+        margin-top: 42px;
+    }
+
+    .how-card {
+        width: 100%;
+    }
+}
